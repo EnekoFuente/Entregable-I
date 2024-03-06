@@ -10,7 +10,7 @@ html {
 
 .title{
     color:#e1e1e1;
-    margin-top: 80px; /*margen arriba y anterior*/
+    margin-top: 0px; /*margen arriba y anterior*/
     margin-bottom: 80px;/*Margen abajo y siguiente*/
     text-align: center;
     background-color:black;
@@ -62,7 +62,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: red;
+    color: rgb(76, 74, 74);
 }
 
 .logo{
@@ -81,16 +81,17 @@ nav ul li a:hover {
     height:400px;
 }
 .box-1{
-    background-image: url('../img/coche1.jpg');
+    background-image: url('../img/Coche1.jpeg');
     background-position: left center;
     background-repeat:no-repeat;
     background-size:cover;
     flex-basis:70%;
+    background-size: co;
 }
 
 .box-2{
     background-color: black;
-    color: red;
+    color: rgb(76, 74, 74);
     text-align: justify;
     padding: 100px;
     flex-basis: 40%;
@@ -105,7 +106,7 @@ nav ul li a:hover {
     column-gap: 20px;
     row-gap: 20px;
     text-align: center;
-    color:red;
+    color: gray;
     background-color: white;
 }
 .noticia1{
@@ -152,18 +153,23 @@ nav ul li a:hover {
 }
 .info-noticia{
     text-align: center;
-    color: red;
+    color: gray;
     padding: 20px;
 
 }
 
 .btn{
-    background-color:red;
+    background-color:black;
     display: block;/*Funcion bloque*/
-    color:black;
+    color:red;
     transition: background-color 0.3s ease-out;
     text-transform:uppercase;
     font-weight: 900;
     padding:10px;
     margin-top:10px;
 }
+
+
+
+
+
