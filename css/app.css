@@ -95,3 +95,96 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
 }
+
+.listado {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    text-align: center;
+    color: gray;
+    background-color: white;
+}
+
+.Numero1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.Numero2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.Numero3 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+.Numero1 img{
+
+    width: 300px;
+    height: 200px; 
+    object-fit: cover;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.Numero2 img{
+
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-top:20px;
+    margin-bottom: 20px;
+
+}
+
+.Numero3 img{
+
+    width: 300px;
+    height: 200px; 
+    object-fit: cover;
+    margin-top:20px;
+    margin-bottom: 20px;
+
+}
+.info{
+    text-align: center;
+    color: gray;
+    padding: 20px;
+
+}
+
+.Numero1, .Numero2, .Numero3{
+
+    background-color: black;
+}
+
+.btn{
+    background-color:black;
+    display: block;/*Funcion bloque*/
+    color:red;
+    transition: background-color 0.3s ease-out;
+    text-transform:uppercase;
+    font-weight: 900;
+    padding:10px;
+    margin-top:10px;
+}
+.TituloCatologo{
+    color:gray ; 
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.th {
+    border: 1px solid #dddddd;
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+  }
+.td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: gray;
+}
