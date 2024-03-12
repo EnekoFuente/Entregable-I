@@ -32,7 +32,7 @@ body {
 
 }
 
-.container {
+.contenedor {
     background-color: black;
     padding: 20px;
 
@@ -66,8 +66,8 @@ nav ul li a:hover {
     background-image: url('../img/LOGO.jpg');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100px; /* Ajusta el tamaño según tu logo */
-    height: 100px; /* Ajusta el tamaño según tu logo */
+    width: 100px; 
+    height: 100px; 
     background-color: black;
     float:initial;
     
@@ -83,7 +83,6 @@ nav ul li a:hover {
     background-repeat:no-repeat;
     background-size:cover;
     flex-basis:70%;
-    background-size: co;
 }
 
 .box-2{
