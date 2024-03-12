@@ -1,0 +1,98 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inconsolata", sans-serif;
+}
+
+.noticia1,.noticia2,.noticia3{
+    background-color:black;
+}
+.tituloIndex{
+    color:#e1e1e1;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    text-align: center;
+    background-color:black;
+    border-top: 3px solid black;
+}
+
+.tituloIndex span{
+
+    color: red;
+
+}
+
+.Contenedor-nav-principal{
+
+  background-color:black ; 
+
+}
+
+.container {
+    background-color: black;
+    padding: 20px;
+
+}
+
+.header {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(76, 74, 74);
+}
+
+.logo{
+    background-image: url('../img/LOGO.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px; /* Ajusta el tamaño según tu logo */
+    height: 100px; /* Ajusta el tamaño según tu logo */
+    background-color: black;
+    float:initial;
+    
+}
+
+.sobre-nosotros{
+    display:flex;
+    height:400px;
+}
+.box-1{
+    background-image: url('../img/Coche1.jpeg');
+    background-position: left center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    flex-basis:70%;
+    background-size: co;
+}
+
+.box-2{
+    background-color: black;
+    color: rgb(76, 74, 74);
+    text-align: justify;
+    padding: 100px;
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
