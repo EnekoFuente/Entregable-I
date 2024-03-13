@@ -388,3 +388,55 @@ nav ul li a:hover {
 .input[type="submit"]:hover {
     background-color: #45a049;
   }
+
+  .contenedor3 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .img-izquierda,
+  .img-derecha {
+    flex: 1;
+  }
+  
+  .img-izquierda img,
+  .img-derecha img {
+    display: block;
+    margin-bottom: 20px;
+    width: 270px;
+    height: 185px;
+  }
+  
+  .contenido {
+    flex: 2;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .post {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+  }
+  
+  .post h2 {
+    color: #333;
+  }
+  
+  .post h3 {
+    color: #666;
+  }
+  
+  .post p {
+    line-height: 1.6;
+  }
+  .Patrocinadores{
+    text-align: center;
+  }
+
