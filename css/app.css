@@ -340,7 +340,7 @@ nav ul li a:hover {
 
 .info-contacto{
   text-align: center;
-  color: gray;
+  color: black;
   padding: 20px;
 
 }
@@ -349,8 +349,10 @@ nav ul li a:hover {
   border: 2px solid gray;
   padding: 10px;
   margin: 0 auto;
-  width: 300px; /* Ajusta el ancho según sea necesario */
+  width: 800px; 
 }
+
+
 
 .legend {
   font-weight: bold;
@@ -362,6 +364,7 @@ nav ul li a:hover {
   display: block;
   margin-bottom: 5px;
   color: black;
+  
 }
 
 .input[type="text"],
@@ -377,7 +380,7 @@ textarea {
 
 .input[type="radio"] {
   margin-right: 5px;
-  
+
 }
 
 .input[type="submit"] {
@@ -416,6 +419,8 @@ textarea {
   
   .contenido {
     flex: 2;
+    text-align: center;
+
   }
   
   h1 {
@@ -430,15 +435,16 @@ textarea {
   }
   
   .post h2 {
-    color: #333;
+    color: black;
   }
   
   .post h3 {
-    color: #666;
+    color: black;
   }
   
   .post p {
     line-height: 1.6;
+    color: black;
   }
   .Patrocinadores{
     text-align: center;
