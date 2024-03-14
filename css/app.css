@@ -87,7 +87,7 @@ nav ul li a:hover {
 
 .box-2{
     background-color: black;
-    color: rgb(76, 74, 74);
+    color: white;
     text-align: justify;
     padding: 100px;
     flex-basis: 40%;
@@ -118,7 +118,7 @@ nav ul li a:hover {
     grid-column-start: 3;
     grid-column-end: 3;
 }
-.Numero1 video{
+.Num1 video{
 
     width: 300px;
     height: 200px; 
@@ -156,8 +156,9 @@ nav ul li a:hover {
 }
 .info{
     text-align: center;
-    color: gray;
+    color: black;
     padding: 20px;
+
 
 }
 
@@ -167,7 +168,7 @@ nav ul li a:hover {
 }
 
 .btn{
-    background-color:black;
+    background-color:white;
     display: block;/*Funcion bloque*/
     color:red;
     transition: background-color 0.3s ease-out;
@@ -178,6 +179,8 @@ nav ul li a:hover {
 }
 .TituloCatologo{
     color:gray ; 
+    text-align: center;
+
 }
 
 .table {
@@ -185,7 +188,7 @@ nav ul li a:hover {
     border-collapse: collapse;
 }
 .th {
-    border: 1px solid #dddddd;
+    border: 1px solid gray;
     background-color: #f2f2f2;
     text-align: left;
     padding: 8px;
@@ -235,7 +238,7 @@ nav ul li a:hover {
   }
 
   .textocaja {
-    color: gray;
+    color: white;
   }
   
 
@@ -285,7 +288,7 @@ nav ul li a:hover {
 
   }
   .textocaja2{
-    color: gray;
+    color: white;
   }
   
   .imagen-caja2:hover .imagenbase2 {
@@ -343,51 +346,52 @@ nav ul li a:hover {
 }
 
 .fieldset {
-  border: 1px solid gray;
-  padding: 20px;
-  margin-bottom: 20px;
+  border: 2px solid gray;
+  padding: 10px;
+  margin: 0 auto;
+  width: 300px; /* Ajusta el ancho según sea necesario */
 }
 
 .legend {
   font-weight: bold;
   font-size: 1.2em;
-  color: gray;
+  color: black;
 }
 
 .label {
   display: block;
-  margin-bottom: 10px;
-  color: gray;
+  margin-bottom: 5px;
+  color: black;
 }
 
 .input[type="text"],
-  textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    color: gray;
-    margin-left: 3px;
-  }
-  
+textarea {
+  width: calc(100% - 22px); /* Reducir el ancho para ajustar el borde y el relleno */
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: gray;
+}
+
 .input[type="radio"] {
-    margin-right: 5px;
-  }
+  margin-right: 5px;
   
+}
+
 .input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 .input[type="submit"]:hover {
-    background-color: #45a049;
-  }
+  background-color: #45a049;
+}
 
   .contenedor3 {
     max-width: 1200px;
@@ -440,3 +444,103 @@ nav ul li a:hover {
     text-align: center;
   }
 
+  .listado1 {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    text-align: center;
+    color: gray;
+    background-color: black;
+}
+
+.btn1 {
+  background-color:black;
+  display: block;/*Funcion bloque*/
+  color:red;
+  transition: background-color 0.3s ease-out;
+  text-transform:uppercase;
+  font-weight: 900;
+  padding:10px;
+  margin-top:10px;
+}
+.textoscoches{
+  color: white;
+}
+
+.TituloCoche{
+
+  color: white;
+
+}
+
+.precio{
+  color: white;
+}
+.Num1, .Num2, .Num3{
+
+  background-color: white;
+}
+
+.Num1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+.Num2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+.Num3 {
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+.Num1 img{
+  width: 300px;
+  height: 200px; 
+  object-fit: cover;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.Num2 img{
+
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-top:20px;
+    margin-bottom: 20px;
+
+}
+
+.Num3 img{
+
+    width: 300px;
+    height: 200px; 
+    object-fit: cover;
+    margin-top:20px;
+    margin-bottom: 20px;
+
+}
+
+.TituloCatologo1 {
+  color:black; 
+  text-align: center;
+
+}
+
+.TituloCatologo2 {
+  color:black; 
+  text-align: center;
+
+}
+
+.Presupuesto{
+  background-color: black;
+  color: white;
+  text-align: justify;
+  padding: 100px;
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
