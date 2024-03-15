@@ -1,389 +1,470 @@
+/*CSS todo html*/
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  /*Utilizado para facilitar dimensionamiento elementos*/
 }
 
+/*Css todo body pagina*/
 body {
-    margin: 0;
-    padding: 0;
-    font-family: "Inconsolata", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Inconsolata", sans-serif;
 }
 
-.noticia1,.noticia2,.noticia3{
-    background-color:black;
-}
-.tituloIndex{
-    color:#e1e1e1;
-    margin-top: 0px;
-    margin-bottom: 80px;
-    text-align: center;
-    background-color:black;
-    border-top: 3px solid black;
+h1 {
+  text-align: center;
 }
 
-.tituloIndex span{
-
-    color: red;
-
-}
-
-.Contenedor-nav-principal{
-
-  background-color:black ; 
-
-}
-
+/*css cabecera*/
 .contenedor {
-    background-color: black;
-    padding: 20px;
+  background-color: black;
+  padding: 20px;
 
 }
 
 .header {
-    text-align: center;
+  text-align: center;
+}
+
+.logo {
+  background-image: url('../img/LOGO.jpg');
+  /*Logo puesto*/
+  background-size: contain;
+  /*Imagen ajusta fondo*/
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  float: initial;
+  /*Establecer foto izquierda del contenedor*/
+
+}
+
+.tituloIndex {
+  color: #e1e1e1;
+  margin-top: 0px;
+  margin-bottom: 80px;
+  text-align: center;
+  background-color: black;
+  border-top: 3px solid black;
+}
+
+.tituloIndex span {
+
+  color: red;
+  /*Parte roja Phoenix*/
+}
+
+.Contenedor-nav-principal {
+
+  background-color: black;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+  display: inline;
+  margin: 0 10px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+  color: white;
 }
 
 nav ul li a:hover {
-    color: rgb(76, 74, 74);
+  color: rgb(76, 74, 74);
 }
 
-.logo{
-    background-image: url('../img/LOGO.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100px; 
-    height: 100px; 
-    background-color: black;
-    float:initial;
-    
+
+/*Bloque sobre-nostros*/
+.sobre-nosotros {
+  display: flex;
+  /*Hacer flexible caja*/
+  height: 400px;
 }
 
-.sobre-nosotros{
-    display:flex;
-    height:400px;
-}
-.box-1{
-    background-image: url('../img/Coche1.jpeg');
-    background-position: left center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    flex-basis:70%;
-    position: relative;
+.box-1 {
+  background-image: url('../img/Coche1.jpeg');
+  background-position: left center;
+  background-size: cover;
+  /*Llena caja*/
+  flex-basis: 70%;
+  /*Especifica dimensiones foto*/
+  position: relative;
 }
 
-.box-2{
-    background-color: black;
-    color: white;
-    text-align: justify;
-    padding: 100px;
-    flex-basis: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.box-2 {
+  background-color: black;
+  color: white;
+  text-align: justify;
+  padding: 100px;
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+/**Css noticias*/
 
 .listado {
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    column-gap: 20px;
-    row-gap: 20px;
-    text-align: center;
-    color: gray;
-    background-color: white;
-    position: relative;
-    max-width:100%;
-    width: auto;
-    height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /*Para que se pongan fila y 3 "cajas"*/
+  column-gap: 20px;
+  row-gap: 20px;
+  text-align: center;
+  color: gray;
+  background-color: white;
+  position: relative;
+  max-width: 100%;
+  width: auto;
+}
+
+.Num1,
+.Num2,
+.Num3 {
+
+  background-color: white;
+}
+
+.Num1 video {
+
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  width: auto;
+}
+
+.Num1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  max-width: 100%;
+  width: auto;
+}
+
+.Num2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  max-width: 100%;
+  width: auto;
+}
+
+.Num3 {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  max-width: 100%;
+  width: auto;
+}
+
+.Num1 img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  width: auto;
+}
+
+.Num2 img {
+
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  width: auto;
+
+}
+
+.Num3 img {
+
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  width: auto;
+
+}
+
+.info {
+  text-align: center;
+  color: black;
+  padding: 20px;
+  max-width: 100%;
+  width: auto;
+}
+
+.btn {
+  background-color: white;
+  display: block;
+  /*Funcion bloque*/
+  color: red;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/*Cajas info y coches antes/despues*/
+
+.Caja {
+  display: flex;
+  height: 100%;
+  background-color: black;
+}
+
+
+.imagen-caja {
+  flex: 1;
+  position: relative;
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+.imagenbase {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease-in-out;
+  /*`Para que desaparezca lentamente foto base*/
+}
+
+.imagendetras {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: auto;
+}
+
+.texto-caja {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.textocaja {
+  color: white;
+}
+
+.imagen-caja:hover .imagenbase {
+  opacity: 0;
+  /*Para que cuando te pongas encima foto desaparezca*/
+}
+
+.imagen-caja:hover .imagendetras {
+  opacity: 1;
+  /*Paran que cuando te pongas encima foto aparezca*/
+}
+
+
+.caja2 {
+  display: flex;
+  height: 100%;
+  background-color: black;
+}
+
+.imagen-caja2 {
+  flex: 1;
+  position: relative;
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+.imagenbase2 {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.imagendetras2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: auto;
+}
+
+.texto-caja2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.textocaja2 {
+  color: white;
+}
+
+.imagen-caja2:hover .imagenbase2 {
+  opacity: 0;
+}
+
+.imagen-caja2:hover .imagendetras2 {
+  opacity: 1;
+}
+
+/**
+CATALOGO
+**/
+
+/*Coches en venta*/
+.TituloCatologo {
+  color: gray;
+  text-align: center;
+
+}
+
+.listado1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+  text-align: center;
+  color: gray;
+  background-color: black;
 }
 
 .Numero1 {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    max-width:100%;
-    width: auto;
-}
-.Numero2 {
-    grid-column-start: 2;
-    grid-column-end: 2;
-    max-width:100%;
-    width: auto;
-}
-.Numero3 {
-    grid-column-start: 3;
-    grid-column-end: 3;
-    max-width:100%;
-    width: auto;
-}
-.Num1 video{
-
-    width: 300px;
-    height: 200px; 
-    object-fit: cover;
-    margin-top:20px;
-    margin-bottom: 20px;
-    max-width:100%;
-    width: auto;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  max-width: 100%;
+  width: auto;
 }
 
-.Numero1 img{
+.Numero1 img {
   width: 300px;
-  height: 200px; 
+  height: 200px;
   object-fit: cover;
-  margin-top:20px;
+  margin-top: 20px;
   margin-bottom: 20px;
-  max-width:100%;
-    width: auto;
+  max-width: 100%;
+  width: auto;
 }
 
-.Numero2 img{
+.TituloCoche {
 
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
-    margin-top:20px;
-    margin-bottom: 20px;
-    max-width:100%;
-    width: auto;
+  color: white;
 
 }
 
-.Numero3 img{
-
-    width: 300px;
-    height: 200px; 
-    object-fit: cover;
-    margin-top:20px;
-    margin-bottom: 20px;
-    max-width:100%;
-    width: auto;
-
-}
-.info{
-    text-align: center;
-    color: black;
-    padding: 20px;
-    max-width:100%;
-    width: auto;
-
-
+.precio {
+  color: white;
 }
 
-.Numero1, .Numero2, .Numero3{
-
-    background-color: black;
+.textoscoches {
+  color: white;
 }
 
-.btn{
-    background-color:white;
-    display: block;/*Funcion bloque*/
-    color:red;
-    transition: background-color 0.3s ease-out;
-    text-transform:uppercase;
-    font-weight: 900;
-    padding:10px;
-    margin-top:10px;
+.btn1 {
+  background-color: black;
+  display: block;
+  /*Funcion bloque*/
+  color: red;
+  padding: 10px;
+  margin-top: 10px;
 }
-.TituloCatologo{
-    color:gray ; 
-    text-align: center;
+
+.Numero2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  max-width: 100%;
+  width: auto;
+}
+
+.Numero2 img {
+
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  width: auto;
+
+}
+
+.Numero3 {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  max-width: 100%;
+  width: auto;
+}
+
+.Numero3 img {
+
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  width: auto;
+}
+
+.Numero1,
+.Numero2,
+.Numero3 {
+
+  background-color: black;
+}
+
+/*Lista precios presupuesto*/
+.TituloCatologo1 {
+  color: black;
+  text-align: center;
 
 }
 
 .table {
-    width: 100%;
-    border-collapse: collapse;
+  width: 100%;
+  border-collapse: collapse;
 }
+
 .th {
-    border: 1px solid gray;
-    background-color: #f2f2f2;
-    text-align: left;
-    padding: 8px;
-  }
-.td{
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-    color: gray;
-}
-
-.Caja {
-    display: flex;
-    height: 100%;
-    background-color: black;
-  }
-
-  .imagen-caja {
-    flex: 1;
-    position: relative;
-    margin-left: 80px;
-    margin-top: 40px;
-  }
-
-  .imagenbase {
-    width: 100%;
-    height: auto;
-    transition: opacity 0.3s ease-in-out;
-  }
-
-  .imagendetras {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    width: 100%;
-    height: auto;
-  }
-
-  .texto-caja {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  .textocaja {
-    color: white;
-  }
-  
-
-   .imagen-caja:hover .imagenbase {
-    opacity: 0;
-  }
-  
-  .imagen-caja:hover .imagendetras {
-    opacity: 1;
-  }
-  
-  .caja2 {
-    display: flex;
-    height: 100%;
-    background-color: black;
-  }
-  
-  .imagen-caja2 {
-    flex: 1;
-    position: relative;
-    margin-left: 80px;
-    margin-top: 40px;
-  }
-  
-  .imagenbase2 {
-    width: 100%;
-    height: auto;
-    transition: opacity 0.3s ease-in-out;
-  }
-  
-  .imagendetras2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    width: 100%;
-    height: auto;
-  }
-  
-  .texto-caja2 {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 20px;
-    margin-right: 20px;
-
-  }
-  .textocaja2{
-    color: white;
-  }
-  
-  .imagen-caja2:hover .imagenbase2 {
-    opacity: 0;
-  }
-  
-  .imagen-caja2:hover .imagendetras2 {
-    opacity: 1;
-  }
-
-  .listadocontacto{
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    column-gap: 20px;
-    row-gap: 20px;
-    text-align: center;
-    color: gray;
-    background-color: white;
-    max-width:100%;
-    width: auto;
-}
-
-.contacto1 img{
-
-  height: 200px; /* Altura deseada */
-  object-fit: cover;
-  margin-top:20px;
-  margin-bottom: 20px;
-  max-width:100%;
-  width: auto;
-}
-
-.contacto2 img{
-
-  height: 200px; 
-  object-fit: cover;
-  margin-top:20px;
-  margin-bottom: 20px;
-  max-width:80%;
-  width: auto;
-
-}
-
-
-.contacto3 img{
-
-  height: 200px; 
-  object-fit: cover;
-  margin-top:20px;
-  margin-bottom: 20px;
-  max-width:100%;
-  width: auto;
-}
-
-.info-contacto{
+  border: 1px solid gray;
+  background-color: #f2f2f2;
+  /*Color marcas existentes*/
   text-align: center;
-  color: black;
-  padding: 20px;
-  max-width:0%;
-  width: auto;
+  padding: 8px;
+}
 
+.td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  color: gray;
+}
+
+
+/*Formulario*/
+.TituloCatologo2 {
+  color: black;
+  text-align: center;
 }
 
 .fieldset {
   border: 2px solid gray;
   padding: 10px;
   margin: 0 auto;
-  width: 800px; 
+  width: 800px;
 }
 
-
-
 .legend {
-  font-weight: bold;
   font-size: 1.2em;
   color: black;
 }
@@ -392,12 +473,13 @@ nav ul li a:hover {
   display: block;
   margin-bottom: 5px;
   color: black;
-  
+
 }
 
 .input[type="text"],
 textarea {
-  width: calc(100% - 22px); /* Reducir el ancho para ajustar el borde y el relleno */
+  width: calc(100% - 22px);
+  /* Reducir el ancho para ajustar el borde y el relleno */
   padding: 5px;
   margin-bottom: 5px;
   border: 1px solid #ccc;
@@ -424,163 +506,124 @@ textarea {
   background-color: #45a049;
 }
 
-  .contenedor3 {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .img-izquierda,
-  .img-derecha {
-    flex: 1;
-  }
-  
-  .img-izquierda img,
-  .img-derecha img {
-    display: block;
-    margin-bottom: 20px;
-    width: 270px;
-    height: 185px;
-  }
-  
-  .contenido {
-    flex: 2;
-    text-align: center;
+/**
+Contacto**/
 
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  .post {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 30px;
-    border-radius: 5px;
-  }
-  
-  .post h2 {
-    color: black;
-  }
-  
-  .post h3 {
-    color: black;
-  }
-  
-  .post p {
-    line-height: 1.6;
-    color: black;
-  }
-  .Patrocinadores{
-    text-align: center;
-  }
-
-  .listado1 {
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    column-gap: 20px;
-    row-gap: 20px;
-    text-align: center;
-    color: gray;
-    background-color: black;
-}
-
-.btn1 {
-  background-color:black;
-  display: block;/*Funcion bloque*/
-  color:red;
-  transition: background-color 0.3s ease-out;
-  text-transform:uppercase;
-  font-weight: 900;
-  padding:10px;
-  margin-top:10px;
-}
-.textoscoches{
-  color: white;
-}
-
-.TituloCoche{
-
-  color: white;
-
-}
-
-.precio{
-  color: white;
-}
-.Num1, .Num2, .Num3{
-
+/*Caja-contacto*/
+.listadocontacto {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+  text-align: center;
+  color: gray;
   background-color: white;
+  max-width: 100%;
+  width: auto;
 }
 
-.Num1 {
-  grid-column-start: 1;
-  grid-column-end: 1;
-  max-width:100%;
-    width: auto;
-    height: auto;
-}
-.Num2 {
-  grid-column-start: 2;
-  grid-column-end: 2;
-  max-width:100%;
-    width: auto;
-    height: auto;
-}
-.Num3 {
-  grid-column-start: 3;
-  grid-column-end: 3;
-  max-width:100%;
-    width: auto;
-    height: auto;
-}
-.Num1 img{
-  height: auto; 
+.contacto1 img {
+
+  height: 200px;
+  /* Altura deseada */
   object-fit: cover;
-  margin-top:20px;
+  margin-top: 20px;
   margin-bottom: 20px;
-  max-width:100%;
-    width: auto;
+  max-width: 100%;
+  width: auto;
 }
 
-.Num2 img{
-
-    height: auto;
-    object-fit: cover;
-    margin-top:20px;
-    margin-bottom: 20px;
-    max-width:100%;
-    width: auto;
-
+.info-contacto {
+  text-align: center;
+  color: black;
+  padding: 20px;
 }
 
-.Num3 img{
+.contacto2 img {
 
-    height: auto; 
-    object-fit: cover;
-    margin-top:20px;
-    margin-bottom: 20px;
-    max-width:100%;
-    width: auto;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 80%;
+  width: auto;
 
 }
 
-.TituloCatologo1 {
-  color:black; 
+.contacto3 img {
+
+  height: 200px;
+  object-fit: cover;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 100%;
+  width: auto;
+}
+
+/*Inicio sesion clientes*/
+
+.blanco {
+  color: white;
+}
+
+
+/**Blog**/
+
+/*Caja contenedor blog*/
+.contenedor3 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Fotos patrocinadores dcha-izq*/
+.img-izquierda,
+.img-derecha {
+  flex: 1;
+}
+
+.img-izquierda img,
+.img-derecha img {
+  display: block;
+  margin-bottom: 20px;
+  width: 270px;
+  height: 185px;
+}
+
+/*Texto central*/
+.Patrocinadores {
+  text-align: center;
+}
+
+.contenido {
+  flex: 2;
   text-align: center;
 
 }
 
-.TituloCatologo2 {
-  color:black; 
-  text-align: center;
-
+.post {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
 }
 
-.Presupuesto{
+.post h2 {
+  color: black;
+}
+
+.post h3 {
+  color: black;
+}
+
+.post p {
+  line-height: 1.6;
+  color: black;
+}
+
+.Presupuesto {
   background-color: black;
   color: white;
   text-align: justify;
@@ -589,8 +632,4 @@ textarea {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.blanco{
-  color: white;
 }
