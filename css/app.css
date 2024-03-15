@@ -83,6 +83,7 @@ nav ul li a:hover {
     background-repeat:no-repeat;
     background-size:cover;
     flex-basis:70%;
+    position: relative;
 }
 
 .box-2{
@@ -104,19 +105,29 @@ nav ul li a:hover {
     text-align: center;
     color: gray;
     background-color: white;
+    position: relative;
+    max-width:100%;
+    width: auto;
+    height: auto;
 }
 
 .Numero1 {
     grid-column-start: 1;
     grid-column-end: 1;
+    max-width:100%;
+    width: auto;
 }
 .Numero2 {
     grid-column-start: 2;
     grid-column-end: 2;
+    max-width:100%;
+    width: auto;
 }
 .Numero3 {
     grid-column-start: 3;
     grid-column-end: 3;
+    max-width:100%;
+    width: auto;
 }
 .Num1 video{
 
@@ -125,6 +136,8 @@ nav ul li a:hover {
     object-fit: cover;
     margin-top:20px;
     margin-bottom: 20px;
+    max-width:100%;
+    width: auto;
 }
 
 .Numero1 img{
@@ -133,6 +146,8 @@ nav ul li a:hover {
   object-fit: cover;
   margin-top:20px;
   margin-bottom: 20px;
+  max-width:100%;
+    width: auto;
 }
 
 .Numero2 img{
@@ -142,6 +157,8 @@ nav ul li a:hover {
     object-fit: cover;
     margin-top:20px;
     margin-bottom: 20px;
+    max-width:100%;
+    width: auto;
 
 }
 
@@ -152,12 +169,16 @@ nav ul li a:hover {
     object-fit: cover;
     margin-top:20px;
     margin-bottom: 20px;
+    max-width:100%;
+    width: auto;
 
 }
 .info{
     text-align: center;
     color: black;
     padding: 20px;
+    max-width:100%;
+    width: auto;
 
 
 }
@@ -307,41 +328,48 @@ nav ul li a:hover {
     text-align: center;
     color: gray;
     background-color: white;
+    max-width:100%;
+    width: auto;
 }
 
 .contacto1 img{
 
-  width: 300px; /* Ancho deseado */
   height: 200px; /* Altura deseada */
   object-fit: cover;
   margin-top:20px;
   margin-bottom: 20px;
+  max-width:100%;
+  width: auto;
 }
 
 .contacto2 img{
 
-  width: 300px; 
   height: 200px; 
   object-fit: cover;
   margin-top:20px;
   margin-bottom: 20px;
+  max-width:80%;
+  width: auto;
 
 }
 
 
 .contacto3 img{
 
-  width: 300px;
   height: 200px; 
   object-fit: cover;
   margin-top:20px;
   margin-bottom: 20px;
+  max-width:100%;
+  width: auto;
 }
 
 .info-contacto{
   text-align: center;
   color: black;
   padding: 20px;
+  max-width:0%;
+  width: auto;
 
 }
 
@@ -491,40 +519,52 @@ textarea {
 .Num1 {
   grid-column-start: 1;
   grid-column-end: 1;
+  max-width:100%;
+    width: auto;
+    height: auto;
 }
 .Num2 {
   grid-column-start: 2;
   grid-column-end: 2;
+  max-width:100%;
+    width: auto;
+    height: auto;
 }
 .Num3 {
   grid-column-start: 3;
   grid-column-end: 3;
+  max-width:100%;
+    width: auto;
+    height: auto;
 }
 .Num1 img{
-  width: 300px;
-  height: 200px; 
+  height: auto; 
   object-fit: cover;
   margin-top:20px;
   margin-bottom: 20px;
+  max-width:100%;
+    width: auto;
 }
 
 .Num2 img{
 
-    width: 300px;
-    height: 200px;
+    height: auto;
     object-fit: cover;
     margin-top:20px;
     margin-bottom: 20px;
+    max-width:100%;
+    width: auto;
 
 }
 
 .Num3 img{
 
-    width: 300px;
-    height: 200px; 
+    height: auto; 
     object-fit: cover;
     margin-top:20px;
     margin-bottom: 20px;
+    max-width:100%;
+    width: auto;
 
 }
 
@@ -549,4 +589,8 @@ textarea {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.blanco{
+  color: white;
 }
