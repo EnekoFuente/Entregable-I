@@ -460,12 +460,12 @@ CATALOGO
 .fieldset {
   border: 2px solid gray;
   padding: 10px;
-  margin: 0 auto;
+  margin: auto;
   width: 800px;
 }
 
 .legend {
-  font-size: 1.2em;
+  font-size: 1.2em;/*Dejar espacio entre letras de un parrafo y otro*/
   color: black;
 }
 
@@ -494,18 +494,12 @@ textarea {
 }
 
 .input[type="submit"] {
-  background-color: #4CAF50;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
-
-.input[type="submit"]:hover {
-  background-color: #45a049;
-}
-
 /**
 Contacto**/
 
@@ -525,7 +519,6 @@ Contacto**/
 .contacto1 img {
 
   height: 200px;
-  /* Altura deseada */
   object-fit: cover;
   margin-top: 20px;
   margin-bottom: 20px;
